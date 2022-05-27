@@ -1,7 +1,7 @@
 ### Best Smart Voice Chat Music Robot For Telegram Groups ...
 
 
-<p align="center"><a href="https://t.me/adityahalder"><img src="https://telegra.ph/file/0ec205b01aa7c2faf47a3.mp4"></a></p>
+<p align="center"><a href="https://t.me/adityahalder"><img src="https://telegra.ph/file/0ec205b01aa7c2faf47a3.png"></a></p>
 
 
 ### Deploy On OkTeto
