@@ -1,7 +1,7 @@
 ### Best Smart Voice Chat Music Robot For Telegram Groups ...
 
 
-<p align="center"><a href="https://t.me/adityahalder"><img src="https://telegra.ph/file/30c291bae8a73cf534d4a.jpg"></a></p>
+<p align="center"><a href="https://t.me/N_B_10"><img src="https://telegra.ph/file/30c291bae8a73cf534d4a.jpg"></a></p>
 
 
 ### Deploy On OkTeto
@@ -11,7 +11,7 @@
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/adityabots/tgmusicbot)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Anes010/Musi )
 
 
 
