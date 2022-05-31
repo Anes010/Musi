@@ -22,7 +22,7 @@
         "ASSISTANT_USERNAME": {
             "description": "يوزر حساب المساعد(بدون '@')",
             "required": true,
-            "value": "F1B1I"
+            "value": ""
         },
         "BOT_IMAGE": {
             "description": "رابط تليكراف صوره البوت",
@@ -41,7 +41,7 @@
         "BOT_USERNAME": {
             "description": "يوزر بوتك(بدون '@')",
             "required": true,
-            "value": "Musicanes_bot"
+            "value": ""
         },
         "DURATION_LIMIT": {
             "description": "مده الاغنيه التي يستغرقها(دقائق) التي تريدها",
@@ -56,12 +56,12 @@
         "OWNER_USERNAME": {
             "description": "يوزر مالك البوت",
             "required": true,
-            "value": "@N_B_1"
+            "value": ""
         },
         "SOURCE_CODE": {
-            "description": "رابط السورس",
+            "description": "لا تغيره ابد",
             "required": true,
-            "value": "https://github.com/Anes010/Musi"
+            "value": "https://t.me/N_B_1"
         },
         "STRING_SESSION": {
             "description": "كود سيشن بايرو",
@@ -74,12 +74,12 @@
             
         },
         "SUPPORT_GROUP": {
-            "description": "رابط الكروب",
+            "description": "اتركه كما هوه",
             "required": true,
             "value": "https://t.me/N_B_10"
         },
         "UPDATES_CHANNEL": {
-            "description": "رابط القناه",
+            "description": "اتركه كما هوه",
             "required": true,
             "value": "https://t.me/N_B_10"
         }
