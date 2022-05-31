@@ -70,7 +70,7 @@
         "SUDO_USERS": {
             "description": "ايدي المطور يمكنك وضع عده مطورين",
             "required": true,
-            "value": "5341342370"
+            "value": ""
             
         },
         "SUPPORT_GROUP": {
