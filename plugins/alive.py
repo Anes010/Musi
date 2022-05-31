@@ -77,7 +77,7 @@ async def start(client: Client, message: Message):
     )
 
 
-@Client.on_message(commandpro(["/repo", "السورس"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/repo", "السورس", "/السورس", "سورس"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/30c291bae8a73cf534d4a.png",
@@ -86,7 +86,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 السورس", url=f"{SOURCE_CODE}")
+                        "للتنصيب اضغط هنا", url=f"{SOURCE_CODE}")
                 ]
             ]
         ),
