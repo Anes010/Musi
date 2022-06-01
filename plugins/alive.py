@@ -92,11 +92,8 @@ async def help(client: Client, message: Message):
         ),
     )
 @Client.on_message(filters.command(["/الاوامر", "الاوامر"] & filters.group & ~filters.edited) 
-
-async def help(client, m: Message):
-
+async def help(client: Client, message: Message):
     await m.delete()
-
     HELP = f"""
 
 <b>👋 اهلا {m.from_user.mention}!
@@ -105,7 +102,7 @@ async def help(client, m: Message):
 
 ——————×—————
 
-⧉ | لتشغيل صوتية في المكالمة أرسل ⇦ [ `{HNDLR}تشغيل  + اسم الاغنية` ]
+⧉ | لتشغيل صوتية في المكالمة أرسل ⇦ [ `تشغيل  + اسم الاغنية` ]
 ———————×———————
 
 ⧉ | لأيقاف الاغنية او الفيديو مؤقتآ  ⇦ [ `استئناف` ] 
