@@ -1,4 +1,4 @@
-# 𝐀𝐝𝐢𝐭𝐲𝐚 𝐇𝐚𝐥𝐝𝐞𝐫 // @𝑨𝒅𝒊𝒕𝒚𝒂𝑯𝒂𝒍𝒅𝒆𝒓
+# ANES // @N_B_1
 import os
 import aiofiles
 import aiohttp
@@ -107,7 +107,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Aditya Halder (@N_B_1)",
+        f"تم التشغيل بواسطت: انس (@N_B_1)",
         (255, 255, 255),
         font=font,
     )
