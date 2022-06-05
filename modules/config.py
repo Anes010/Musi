@@ -30,4 +30,4 @@ UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "https://t.me/N_B_10")
 
 # 𝐃𝐨 𝐍𝐨𝐭 𝐂𝐡𝐚𝐧𝐠𝐞 𝐓𝐡𝐢𝐬 𝐋𝐢𝐧𝐞𝐬 // 𝐈𝐠𝐧𝐨𝐫𝐞 𝐓𝐡𝐢𝐬 (ANES) 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ . !").split())
-PROFILE_CHANNEL = getenv("PROFILE_CHANNEL", "https://t.me/N_B_1")
+PROFILE_CHANNEL = getenv("PROFILE_CHANNEL", "https://t.me/S8Y8S")
