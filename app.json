@@ -74,12 +74,12 @@
             
         },
         "SUPPORT_GROUP": {
-            "description": "اتركه كما هوه",
+            "description": "كروبك الي تبي الشخص يبلغ عن مشكله معينه",
             "required": true,
             "value": "https://t.me/N_B_10"
         },
         "UPDATES_CHANNEL": {
-            "description": "اتركه كما هوه",
+            "description": "قناه الي تبي تخلي",
             "required": true,
             "value": "https://t.me/N_B_10"
         }
