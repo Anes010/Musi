@@ -1,4 +1,4 @@
-# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 (C) 2022 𝑩𝒚 @𝑨𝒅𝒊𝒕𝒚𝒂𝑯𝒂𝒍𝒅𝒆𝒓
+# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 (C) 2022 𝑩𝒚 @N_B_1
 
 import os
 from pyrogram import Client, filters
@@ -17,9 +17,9 @@ async def clear_downloads(_, message: Message):
     if ls_dir:
         for file in os.listdir(downloads):
             os.remove(os.path.join(downloads, file))
-        await message.reply_text("✅ **𝑫𝒆𝒍𝒆𝒕𝒆𝒅 𝑨𝒍𝒍 𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅𝒆𝒅 𝑭𝒊𝒍𝒆𝒔 ...**")
+        await message.reply_text("✅ **تم ااتنضيف جميع ملفات المحمله...**")
     else:
-        await message.reply_text("❌ **𝑵𝒐 𝑭𝒊𝒍𝒆𝒔 𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅𝒆𝒅 ...**")
+        await message.reply_text("❌ **لا توجد ملفات محمله...**")
 
         
 @Client.on_message(command(["rmr", "clean"]) & ~filters.edited)
