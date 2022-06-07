@@ -37,11 +37,11 @@ async def start_(client: Client, message: Message):
         photo=f"{BOT_IMAGE}",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 مرحبا انا بوت اغاني
-كل الي علي ترفعني مشرف بكروبك و بكامل الصلاحيات
+كل الي عليك ترفعني مشرف بكروبك و بكامل الصلاحيات
 
 
 ★ المطور ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/{OWNER_USERNAME})
-★ سورس البوت ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞]({SOURCE_CODE})
+★ سورس ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞]({SOURCE_CODE})
 ★ قناه التحديثات ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞]({UPDATES_CHANNEL})
 ★ ابلاغ عن مشكله ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞]({SUPPORT_GROUP})
 
@@ -70,17 +70,17 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " انضم الى قناه البوت", url=f"{SUPPORT_GROUP}")
+                        "ابلاغ عن مشكله", url=f"{SUPPORT_GROUP}")
                 ]
             ]
         ),
     )
 
 
-@Client.on_message(commandpro(["/repo", "السورس", "/السورس", "سورس"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/repo", "/السورس", f"/سورس"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/30c291bae8a73cf534d4a.png",
+        photo=f"https://telegra.ph/file/acd204de036392761c2ad.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
