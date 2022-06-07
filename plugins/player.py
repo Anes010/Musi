@@ -147,7 +147,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**ارفعني مشرف ابن الكواد و انطيني الصلاحيات كله ...**")
+                        "**ارفعني مشرف حبيب قلبي و انطيني الصلاحيات كله ...**")
                     return
 
                 try:
